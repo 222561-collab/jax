@@ -1,0 +1,17 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="d3TPLKbm4:t)tZCBqQZm">JAx</variable></variables><block type="pxt-on-start" id="m0o4]DrVo6ge!5[Hoo)~" x="0" y="0"><statement name="HANDLER"><block type="particlesStartScreenAnimation" id="!7WaDGQ}-~4#qkxv+Sr?"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><field name="effect">effects.blizzard</field><value name="duration"><shadow type="timePicker" id="ae.Mo_0O}5*:5:!d(3MO"><field name="ms">500</field></shadow><block type="arcade_game_runtime" id=";s[6ZPIkYOe,n$eb;yib"></block></value><next><block type="game_dialog_set_frame" id="C1^YnoBB9oUHv4#7}U8("><value name="frame"><shadow type="dialog_image_picker" id="M5_SYsN54*OF):sG_M)u"><field name="img">img`
+. . . . . . . . . . . f . . . 
+. . f f . f f f f . . f f . . 
+. f f f f f . . f f f f f . . 
+. . f . . . . . f . . . f . . 
+. . f . . . . . . . . . f . . 
+. f f . . . . . f . . . f . . 
+. f . f f f f f . f f f f . . 
+. f f f . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><next><block type="game_control_sprite" id=";%8MV%E1A%}B-/];/|/Q"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="vx"><shadow type="spriteSpeedPicker" id="CnXuLV*KR~*.jZsb~3TM"><field name="speed">40</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="71;C.p@G[ZR1j6LlUEHI"><field name="speed">-100</field></shadow></value><next><block type="game_control_sprite" id="mqMp*^SOTd/14P75e/tO"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="vx"><shadow type="spriteSpeedPicker" id="Qf[C.;?hFfIES!jI8tt+"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id=")BbgmFCIHVjevqu7;xt."><field name="speed">100</field></shadow></value><next><block type="device_pause" id="+jh2^eyZGf+4?Dz)}ROE"><value name="pause"><shadow type="timePicker" id="Y^}AlzFCWpN(`PS#j~S("><field name="ms">100</field></shadow></value><next><block type="game_setgameoverscoringtype" id="=Fe}KexUwWP=vh+6pv*D"><field name="type">game.ScoringType.HighScore</field></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
